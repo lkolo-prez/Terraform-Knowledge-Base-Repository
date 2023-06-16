@@ -8,7 +8,7 @@ Zmienne są zdefiniowane w osobnym pliku `variables.tf`, co pozwala na łatwą m
 Niektóre z zmiennych, które możesz zechcieć dostosować do swoich potrzeb, to:
 
 - `resource_group_name`, `location`, `cluster_name`, `dns_prefix` - podstawowe informacje o klastrze AKS.
-- `kubernetes_version` - wersja Kubernetes dla klastra AKS. Obecnie ustawiona na najnowszą obsługiwaną wersję Kubernetes, czyli 1.25【13†source】.
+- `kubernetes_version` - wersja Kubernetes dla klastra AKS. Obecnie ustawiona na najnowszą obsługiwaną wersję Kubernetes, czyli 1.25.
 - `private_cluster_enabled` - określa, czy klaster powinien być prywatny.
 - `node_count`, `node_vm_size` - szczegóły dotyczące domyślnej puli węzłów.
 - `enable_auto_scaling`, `min_count`, `max_count` - szczegóły dotyczące automatycznego skalowania dla domyślnej puli węzłów.
